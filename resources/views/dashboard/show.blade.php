@@ -26,7 +26,7 @@
                                 <td>{!!$timeTeam1!!}</td>
                                 <td>{{$team1Tried}}</td>
                                 <td>{!!filter_var($stat->didTeam1Finish, FILTER_VALIDATE_BOOLEAN) ? 'Jā' : '<span style="color:red">Nē</span>'!!}</td>
-                                <td>{!!filter_var($stat->team2Surrender, FILTER_VALIDATE_BOOLEAN) ? '<span style="color:red">Jā</span>' : 'Nē'!!}</td>
+                                <td>{!!filter_var($stat->team1Surrender, FILTER_VALIDATE_BOOLEAN) ? '<span style="color:red">Jā</span>' : 'Nē'!!}</td>
                             </tr>
                         </tbody>
                     </table>
